@@ -33,7 +33,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <nav className="flex justify-between py-2 px-5">
+            {/* <nav className="flex justify-between py-2 px-5">
               <div></div>
               <div className="flex justify-center items-center gap-4">
                 <div>
@@ -41,13 +41,9 @@ export default function RootLayout({
                 <SignedOut>
                   <SignInButton />
                 </SignedOut>
-                <SignedIn>
-                  <UserButton />
-                </SignedIn>
                 </div>
-                <ModeToggle />
               </div>
-            </nav>
+            </nav> */}
             {children}
           </ThemeProvider>
         </body>
